@@ -15,16 +15,12 @@ html {
 }
 
 body {
-    color : #161616;
+    color : var(--text-color)
 	font: var(--font-family-base)
 }
 
-h1,h2,h3,h4,h5,h6 {
-	font: var(--font-family-title);
-}
-
 a {
-    color : #161616;
+    color : var(--text-color)
 }
 
 .visually-hidden {
@@ -39,3 +35,6 @@ a {
     color: #D73953;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font: var(--font-family-title);
+}
