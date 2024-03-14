@@ -33,7 +33,7 @@ body {
 }
 
 a {
-    color : var(--text-color)
+    color : var(--text-color);
 }
 
 .visually-hidden {
@@ -41,11 +41,11 @@ a {
 }
 
 .card-category {
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
